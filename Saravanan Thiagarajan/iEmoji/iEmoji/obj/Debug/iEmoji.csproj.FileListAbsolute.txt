@@ -6,3 +6,4 @@ D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\bin\Debug\FUNPROJECT.exe
 D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\bin\Debug\FUNPROJECT.pdb
 D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Debug\FUNPROJECT.exe
 D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Debug\FUNPROJECT.pdb
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Debug\iEmoji.csprojAssemblyReference.cache

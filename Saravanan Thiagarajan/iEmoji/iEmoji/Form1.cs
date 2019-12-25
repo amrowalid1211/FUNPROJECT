@@ -9,6 +9,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Media;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -187,10 +188,26 @@ namespace iEmoji
             this.WindowState = FormWindowState.Minimized;
             string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             string time = DateTime.Now.ToString();
-            MessageBox.Show("("+userName+")\\\""+textBox1.Text + "\"" + "\\" + ((selected!=null)?selected.Tag:"No emoji") + "\\" + time);
+            //MessageBox.Show("("+userName+")\\\""+textBox1.Text + "\"" + "\\" + ((selected!=null)?selected.Tag:"No emoji") + "\\" + time);
+            //Sending should go here
+            using (var wb = new WebClient())
+            {
+                try
+                {
+                    string url = String.Format("https://www.google.com/request.php?username='{0}'&message='{1}'&emoji='{2}'&time='{3}'", userName, textBox1.Text, ((selected != null) ? selected.Tag : "No emoji"), time);
+                    Console.WriteLine(url);
+                    var response = wb.DownloadString(url);
+
+                }
+                catch (Exception e)
+                {
+                  
+                }
+              
+            }
             textBox1.Text = "";
-            if(selected!=null)
-            selected.BackColor = Color.Transparent;
+            if (selected != null)
+                selected.BackColor = Color.Transparent;
             selected = null;
         }
 

@@ -1,0 +1,9 @@
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\bin\Release\FUNPROJECT.exe.config
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\bin\Release\FUNPROJECT.exe
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\bin\Release\FUNPROJECT.pdb
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Release\iEmoji.csprojAssemblyReference.cache
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Release\iEmoji.Form1.resources
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Release\FUNPROJECT.Properties.Resources.resources
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Release\iEmoji.csproj.GenerateResource.cache
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Release\FUNPROJECT.exe
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Release\FUNPROJECT.pdb
