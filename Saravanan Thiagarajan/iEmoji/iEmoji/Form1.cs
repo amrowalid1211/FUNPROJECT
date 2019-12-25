@@ -30,12 +30,11 @@ namespace iEmoji
             this.ShowInTaskbar = false;
             InitializeComponent();
             GetEmojis();
-       //     this.BackColor = Color.Turquoise;
+     
             RoundBorderForm(this);
-       //     
+        
             notifyIcon1.Visible = true;
-            this.Paint += Form1_Paint;
-            this.Resize += Form1_Resize;
+          
             this.Shown += Form1_Shown;
         }
 
@@ -45,21 +44,13 @@ namespace iEmoji
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void Form1_Resize(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void Form1_Paint(object sender, PaintEventArgs e)
-        {
-           
-        }
+    
 
         private void GetEmojis()
         {
             string[] fileEntries = Directory.GetFiles("imgs");
             this.Width = emojiSize * (int)columns;
-            this.Height = (int)(Math.Round((float)fileEntries.Length / columns) * emojiSize)+panel2.Height+panel6.Height;
+            this.Height = (int)(Math.Round((float)fileEntries.Length / columns) * emojiSize);
             //    this.flowLayoutPanel1.Width = emojiSize * fileEntries.Length;
             //    this.flowLayoutPanel1.Height = emojiSize;
             foreach (string fileName in fileEntries)
@@ -114,11 +105,7 @@ namespace iEmoji
         }
 
       
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-           
-        }
+      
         public static void RoundBorderForm(Form frm)
         {
             frm.FormBorderStyle = FormBorderStyle.None;
@@ -151,15 +138,9 @@ namespace iEmoji
 
         }
 
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
+      
 
-        }
-
-        private void notifyIcon1_Click(object sender, EventArgs e)
-        {
-            
-        }
+      
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -214,13 +195,11 @@ namespace iEmoji
         private void nightModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             flowLayoutPanel1.BackColor = Color.FromArgb(42, 42, 42);
-            pictureBox1.BackColor = Color.GhostWhite;
         }
 
         private void lightModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             flowLayoutPanel1.BackColor = Color.WhiteSmoke;
-            pictureBox1.BackColor = Color.WhiteSmoke;
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
