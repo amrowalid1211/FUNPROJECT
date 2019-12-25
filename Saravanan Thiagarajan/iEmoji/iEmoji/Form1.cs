@@ -50,7 +50,7 @@ namespace iEmoji
         {
             string[] fileEntries = Directory.GetFiles("imgs");
             this.Width = emojiSize * (int)columns;
-            this.Height = (int)(Math.Round((float)fileEntries.Length / columns) * emojiSize);
+            this.Height = (int)(Math.Round((float)fileEntries.Length / columns) * emojiSize) + panel6.Height;
             //    this.flowLayoutPanel1.Width = emojiSize * fileEntries.Length;
             //    this.flowLayoutPanel1.Height = emojiSize;
             foreach (string fileName in fileEntries)
