@@ -1,0 +1,8 @@
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Debug\iEmoji.Form1.resources
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Debug\iEmoji.csproj.GenerateResource.cache
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Debug\FUNPROJECT.Properties.Resources.resources
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\bin\Debug\FUNPROJECT.exe.config
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\bin\Debug\FUNPROJECT.exe
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\bin\Debug\FUNPROJECT.pdb
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Debug\FUNPROJECT.exe
+D:\Freelance\Saravanan Thiagarajan\iEmoji\iEmoji\obj\Debug\FUNPROJECT.pdb
