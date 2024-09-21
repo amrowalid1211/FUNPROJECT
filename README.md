@@ -51,4 +51,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Developed by Amro Walid Muhammad Khairy.
+Developed by Amro Walid Muhammad Khairy for Saravanan Thiagarajan.
